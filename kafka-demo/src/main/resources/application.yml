@@ -1,0 +1,12 @@
+# application.yml ??
+server:
+  port: 8888
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: my-ggrouproup
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+#    listener:
+#      type: batch

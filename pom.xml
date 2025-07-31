@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- 父项目坐标 -->
+    <groupId>com.example</groupId>
+    <artifactId>demo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <!-- 定义子模块 -->
+    <modules>
+        <module>kafka-demo</module>
+    </modules>
+
+    <!-- 可选：统一管理依赖版本 -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- 例如统一管理 Spring Boot 版本 -->
+        </dependencies>
+    </dependencyManagement>
+</project>
